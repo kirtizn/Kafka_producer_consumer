@@ -1,6 +1,14 @@
 # Kafka_producer_consumer
 Kafka Producer and consumer code to read csv file
 
+Command to start ZooKeeper Server
+##### bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+Command to start Kafka Server
+##### bin\windows\kafka-server-start.bat config\server.properties
+Command to list the Kafka-topics
+##### bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+
+
 ### Problem 1:
 
 - Kafka producer that will read “SalesRecords.csv” file and convert each line to json and send the data to a Kafka topic(“test.topic.raw”)

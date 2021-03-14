@@ -30,7 +30,7 @@ Write down 2 Kafka consumers, both reading data from the same topic “test.topi
 
 Consumer2 should do the following:
 - Filter the data based on Unit Cost
- - Send data to Kafka topic named “topic.costly_order” if ‘Unit Cost’ is more than “10000” 
+ - Send data to Kafka topic named “topic.costly_order” if ‘Unit Cost’ is more than “500” 
 - Start consumer console to verify data reaching to the given topic.
         
   
